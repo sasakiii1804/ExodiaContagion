@@ -1,4 +1,3 @@
-'''
 ; ----------------------------------------------------------------------------
 ; Macro Zaw Exodia Contagion
 ; ----------------------------------------------------------------------------
@@ -12,10 +11,10 @@ ListLines Off
 ; Valores configuráveis pelo usuário
 ; ------------------------------------------------------------------------------
 
-fps := 40 ; Ajuste isso para a média de FPS durante a luta.
-meleeKey := "e" ; Sua tecla de ataque corpo a corpo (padrão: e)
-jumpKey := "Space" ; Sua tecla de pulo (padrão: Space)
-aimKey := "RButton" ; Sua tecla de mira (padrão: RButton)
+fps := 40 ; FPS médio durante a luta.
+meleeKey := "e" ; Tecla de ataque corpo a corpo (padrão: e)
+jumpKey := "Space" ; Tecla de pulo (padrão: Space)
+aimKey := "RButton" ; Tecla de mirar (padrão: RButton)
 macroKey := "C" ; Tecla para ativar a macro (padrão: C)
 
 ; ------------------------------------------------------------------------------
@@ -57,4 +56,3 @@ return
 ; ------------------------------------------------------------------------------
 
 F11::Suspend, Toggle
-'''
